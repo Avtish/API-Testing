@@ -25,10 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('validateApiResponse', (response) => {
-    // Assert the response status code
     expect(response.status).to.eq(200);
-  
-    // Perform additional assertions based on the API response
     expect(response.body).to.have.property('Name', 'Carbon credits');
     expect(response.body).to.have.property('CanRelist', true);
     expect(response.body.Promotions[1]).to.have.property('Name', 'Gallery');
