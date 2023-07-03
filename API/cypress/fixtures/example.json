@@ -1,0 +1,14 @@
+{
+  "status": 200,
+  "body": {
+    "Name": "Carbon credits",
+    "CanRelist": true,
+    "Promotions": [
+      {},
+      {
+        "Name": "Gallery",
+        "Description": "Gallery promotion"
+      }
+    ]
+  }
+}
