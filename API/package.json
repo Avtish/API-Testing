@@ -9,6 +9,7 @@
   "author": "Avtish",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.13.0"
+    "cypress": "^12.13.0",
+    "node": "^20.3.1"
   }
 }
